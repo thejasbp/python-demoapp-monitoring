@@ -16,4 +16,4 @@ COPY src/. .
 # Expose the port your Flask app is running on (default Flask port is 5000)
 EXPOSE 5000
 
-CMD ["pyhton", "run.py"]
+CMD ["pyhton", "src/run.py"]
